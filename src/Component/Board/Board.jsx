@@ -6,7 +6,7 @@ export default function Board({ squears, xIsNext, onPlay }) {
 
   let status;
   if (wineer) {
-    status = `wineer ${wineer}`;
+    status = `wineer player ( ${wineer})`;
   } else {
     status = "Next player: " + (xIsNext ? "(x)" : "(o)");
   }
